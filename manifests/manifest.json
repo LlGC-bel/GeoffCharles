@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://LlGC-bel.github.io/GeoffCharles/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://00ba259a-c701-4954-b38c-5f898656e187",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b7a37840-a6ea-430f-8f0d-8f23250c36b9",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3516,
+      "width" : 2391,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7587fa52-255c-4bb0-a352-d9e77812717e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/1480374/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/1480374",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "@type" : "iiif:ImageProfile",
+              "formats" : [ "jpg", "gif", "png" ],
+              "supports" : [ "regionSquare", "rotationArbitrary", "mirroring" ]
+            } ]
+          },
+          "height" : 3516,
+          "width" : 2391
+        },
+        "on" : "http://b7a37840-a6ea-430f-8f0d-8f23250c36b9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cb5e4d35-5a01-424f-b1d8-e0ebeac93b09",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2399,
+      "width" : 3619,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4dbde499-6a76-4989-8c53-fd969e87b5b2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/1521512/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/1521512",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "@type" : "iiif:ImageProfile",
+              "formats" : [ "jpg", "gif", "png" ],
+              "supports" : [ "regionSquare", "rotationArbitrary", "mirroring" ]
+            } ]
+          },
+          "height" : 2399,
+          "width" : 3619
+        },
+        "on" : "http://cb5e4d35-5a01-424f-b1d8-e0ebeac93b09"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
